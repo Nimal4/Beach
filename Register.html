@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="shortcut icon" href="tree1.png">
+	<title>Nav bar</title>
+	<style>
+	html{scroll-behavior: smooth;}
+	body{background-image: url('https://images.fineartamerica.com/images-medium-large-5/two-palm-trees-on-an-exotic-beach-in-gerisima.jpg');background-repeat: no-repeat;background-size: 3000px;}
+	.navbar{display: flex;justify-content: space-around;align-items: center;background-color: rgba(0,0,0,0.3);box-shadow: 10px 10px 13px black;border-radius: 10px;}
+	.logo{width: 50%;padding-left: 60px;}
+    .home{width: 70%;transition: 0.5s;}
+     a{text-decoration: none;color: ghostwhite;text-transform: uppercase;padding: 30px;transition: 0.5s}
+     a:hover{background-color: rgba(0,0,0,0.4);border-radius: 15px;}
+     .home:hover{transform: scale(1.1);}
+     .navbar2{height: 630px;display: flex;justify-content: space-around;align-items: center;color: white;}
+     .booking{height: 80px;width: 160px;font-size: 20px;background-color: rgba(0, 0, 0, 0.3);box-shadow: 10px 10px 13px black;border-radius: 10px;padding-left: 20px;padding-top: 50px;transition: 0.5s;}
+     .ticket{height: 80px;width: 160px;font-size: 20px;background-color: rgba(0, 0, 0, 0.3);box-shadow: 10px 10px 13px black;border-radius: 10px;padding-left: 20px;padding-top: 50px;transition: 0.5s;}
+     .booking:hover{transform: scale(1.1);}
+     .ticket:hover{transform: scale(1.1);}
+     input{background-color: rgb(201, 157, 22);border: 5px solid rgb(145, 111, 6);padding: 10px;margin: 25px;color: rgb(255, 234, 171);;font-size: 12px;}
+	input[type=submit]{background-color: rgb(186, 139, 30);color: rgb(133, 96, 11);border-radius: 10px}
+	input:focus{background-color: rgb(252, 223, 157);color: rgb(245, 189, 61);}
+	label{color: white;background-color: rgba(0, 0, 0, 0.4);box-shadow: 10px 10px 13px black;border-radius: 10px;}
+	h1{color: ghostwhite;background-color: rgba(0, 0, 0, 0.4);box-shadow: 10px 10px 13px black;border-radius: 10px;}
+</style>
+	</head>
+	<body>
+		<div class="navbar"id="up">
+			<div class="logo"><img src="tree1.png" width=100px height=95px>
+			</div>
+			<div class="home">
+				<a href="index.html">Home</a>
+				<a href="Register.html">Register</a>
+				<a href="Services.html">Services</a>
+				<a href="Gallery.html">Gallery</a>
+				<a href="Contact.html">Contact Us</a>
+			</div>
+		</div>
+		<label>Name</label><input type="text"name="name"placeholder="enter your name" required><br>
+
+<label>Password</label><input type="password" name="pass"placeholder="enter your password" required><br>
+
+<label>Age</label><input type="number"name="age"><br>
+
+<label>Email</label><input type="email"name="email"placeholder="enter your email address" required><br>
+
+		<label>Date</label><input type="date"name="date"required><br>
+			<h1>Things you want</h1><br>
+				
+				<label>Hut</label><input type="checkbox"name="Hut"><br>
+				
+	<label>Bedroom</label><input type="checkbox"name="Bedroom"><br>
+						<label>Private Land</label><input type="checkbox"name="Private Land"><br>
+	<td colspan="2">
+<input type="submit"value="Submit">
+</form>
+</fieldset>
+</center>
+	</body>
+	</body>
+</html>
