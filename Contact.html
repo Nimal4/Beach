@@ -4,8 +4,8 @@
 	<link rel="shortcut icon" href="tree1.png">
 	<title>Nav bar</title>
 	<style>
+	body{background-color: rgb(11, 43, 112);}
 	html{scroll-behavior: smooth;}
-	body{background-image: url('https://images.fineartamerica.com/images-medium-large-5/two-palm-trees-on-an-exotic-beach-in-gerisima.jpg');background-repeat: no-repeat;background-size: 3000px;}
 	.navbar{display: flex;justify-content: space-around;align-items: center;background-color: rgba(0,0,0,0.3);box-shadow: 10px 10px 13px black;border-radius: 10px;}
 	.logo{width: 50%;padding-left: 60px;}
     .home{width: 70%;transition: 0.5s;}
@@ -22,7 +22,7 @@
 	input:focus{background-color: rgb(252, 223, 157);color: rgb(245, 189, 61);}
 	label{color: white;background-color: rgba(0, 0, 0, 0.4);box-shadow: 10px 10px 13px black;border-radius: 10px;}
 	h1{color: ghostwhite;background-color: rgba(0, 0, 0, 0.4);box-shadow: 10px 10px 13px black;border-radius: 10px;}
-	form{text-align: center;border: 5px solid black;border-radius: 15px;background-color: rgba(0, 0, 0, 0.8);}
+	form{color: white;text-align: center;border: 5px solid black;border-radius: 15px;background-color: rgba(0, 0, 0, 0.8);}
 </style>
 	</head>
 	<body>
@@ -41,13 +41,15 @@
 			<fieldset>
 		<label>Name</label><input type="text"name="name"placeholder="enter your name" required><br>
 
-<label>Password</label><input type="password" name="pass"placeholder="enter your password" required><br>
-
-<label>Age</label><input type="number"name="age"><br>
+<label>Last Name</label><input type="name" name="Last Name"placeholder="enter your Last Name" required><br>
 
 <label>Email</label><input type="email"name="email"placeholder="enter your email address" required><br>
-
-		<label>Date</label><input type="date"name="date"required><br>
+<select>
+		<option disabled>--Select--</option>
+				<option>How can we help</option>
+				<option selected>Any suggestions</option>
+			</select><br>
+			<textarea placeholder="Feedback"rows="9"cols="66"></textarea>
 	<td colspan="2">
 <input type="submit"value="submit">
 </form>
